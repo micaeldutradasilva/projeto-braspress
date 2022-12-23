@@ -90,3 +90,73 @@ main > h1 {
     color: var(--color0);
     text-align: center;
 }
+
+main > section {
+    display: inline-block;
+    width: 220px;
+    height: 230px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.212);
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+main > section#impressoras-termicas > img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+
+main > section#impressoras-termicas > p {
+    font-size: 20px;
+    margin-bottom: auto;
+    color: var(--color1);
+    font-weight: bolder;
+    text-align: center;
+}
+
+main > section#esteira-de-afericao > img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+
+main > section#esteira-de-afericao > p {
+    font-size: 20px;
+    margin-bottom: auto;
+    color: var(--color1);
+    font-weight: bolder;
+    text-align: center;
+}
+
+main > section#dimensionador > img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+
+main > section#dimensionador > p {
+    font-size: 20px;
+    margin-bottom: auto;
+    color: var(--color1);
+    font-weight: bolder;
+    text-align: center;
+}
+
+main > section#esteira-flexivel > img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+
+main > section#esteira-flexivel > p {
+    font-size: 20px;
+    margin-bottom: auto;
+    color: var(--color1);
+    font-weight: bolder;
+    text-align: center;
+}
